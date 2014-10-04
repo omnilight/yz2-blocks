@@ -15,7 +15,8 @@
         "yiisoft/yii2": "*",
         "omnilight/yz2-admin": "*",
         "omnilight/icons": "*",
-        "omnilight/yz2": "*"
+        "omnilight/yz2": "*",
+        "2amigos/yii2-ckeditor-widget" : "*"
     },
     "autoload": {
         "psr-4": { "yz\\blocks\\": "" }
