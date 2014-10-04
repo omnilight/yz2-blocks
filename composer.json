@@ -1,0 +1,26 @@
+{
+    "name": "omnilight/yz2-blocks",
+    "description": "Inline blocks editing module for Yz2",
+    "keywords": ["yii", "framework", "yz"],
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Pavel Agalecky",
+            "email": "pavel.agalecky@gmail.com"
+        }
+    ],
+    "type": "yii2-extension",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "omnilight/yz2-admin": "*",
+        "omnilight/icons": "*",
+        "omnilight/yz2": "*"
+    },
+    "autoload": {
+        "psr-4": { "yz\\blocks\\": "" }
+    },
+    "extra": {
+        "bootstrap": "yz\\blocks\\Bootstrap"
+    }
+}
